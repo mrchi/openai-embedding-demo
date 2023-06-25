@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+black = "*"
+coverage = {extras = ["toml"], version = "*"}
+flake8 = "*"
+isort = "*"
+pytest = "*"
+pytest-env = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
