@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+psycopg2 = "*"
+tiktoken = "*"
+requests = "*"
+beautifulsoup4 = "*"
+openai = {extras = ["datalib"], version = "*"}
 
 [dev-packages]
 black = "*"
